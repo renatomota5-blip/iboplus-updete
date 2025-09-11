@@ -1,0 +1,2 @@
+-keep class com.google.android.exoplayer2.** { *; }
+-keepattributes *Annotation*
