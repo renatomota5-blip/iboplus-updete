@@ -7,16 +7,11 @@
       android:allowBackup="true"
       android:usesCleartextTraffic="false"
       android:label="IBO Plus"
-      android:icon="@mipmap/ic_launcher"
-      android:roundIcon="@mipmap/ic_launcher"
+      android:icon="@drawable/ic_logo"
+      android:roundIcon="@drawable/ic_logo"
       android:networkSecurityConfig="@xml/network_security_config"
       android:supportsRtl="true"
       android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-
-    <!-- Banner Android TV -->
-    <meta-data
-        android:name="com.google.android.tv.banner"
-        android:resource="@drawable/banner" />
 
     <activity
         android:name="tech.jrplay.iboplus.ui.MainActivity"
@@ -24,16 +19,11 @@
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
-        <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
       </intent-filter>
     </activity>
 
-    <activity
-        android:name="tech.jrplay.iboplus.ui.LegalActivity"
-        android:exported="false" />
-
-    <activity
-        android:name="tech.jrplay.iboplus.ui.WebPageActivity"
+  </application>
+</manifest>
         android:exported="false" />
 
     <activity
